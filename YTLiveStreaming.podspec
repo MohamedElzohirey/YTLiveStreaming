@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/SKrotkih/YTLiveStreaming.git", :tag => s.version.to_s }
 
   s.frameworks   = "UIKit"
-  s.dependency 'Moya', '10.0.0'
+  s.dependency 'Moya'
   s.dependency 'LFLiveKit'
   s.dependency 'SwiftyJSON'
   s.dependency 'KeychainAccess'
